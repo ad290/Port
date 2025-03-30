@@ -1,34 +1,34 @@
 import {
-  backend,
-  javascript,
-  reactjs,
-  tailwind,
-  git,
-  docker,
-  springBoot,
-  mysql,
-  postgresql,
-  gdsc,
-  whatsapp,
-  nextJs,
-  typescript,
-  kubernetes,
-  jenkins,
-  firebase,
-  kafka,
-  wordpress,
-  sajilodev,
-  geoland,
-  deukhuri,
-  sharad,
-  shivaraj,
-  shivaoli,
-  tekpun,
-  payment,
-  gharsanchar,
-  sajilodevlogo,
-  frontend,
-  cloud,
+    backend,
+    cloud,
+    deukhuri,
+    docker,
+    firebase,
+    frontend,
+    gdsc,
+    geoland,
+    gharsanchar,
+    git,
+    javascript,
+    jenkins,
+    kafka,
+    kubernetes,
+    mysql,
+    nextJs,
+    payment,
+    postgresql,
+    reactjs,
+    sajilodev,
+    sajilodevlogo,
+    sharad,
+    shivaoli,
+    shivaraj,
+    springBoot,
+    tailwind,
+    tekpun,
+    typescript,
+    whatsapp,
+    wordpress,
 } from "../assets";
 
 export const navLinks = [
@@ -161,7 +161,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Working with Dipendra was a game-changer for my online presence. They took the time to understand my goals and delivered a website that not only looks fantastic but also performs exceptionally well. Their expertise and dedication are unmatched!",
+      "Working with Aditya was a game-changer for my online presence. They took the time to understand my goals and delivered a website that not only looks fantastic but also performs exceptionally well. Their expertise and dedication are unmatched!",
     name: "Sharad Kumar Sharma",
     designation: "Managing Director",
     company: "Geoland Travels",
@@ -169,7 +169,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Dipendra proved me wrong. The attention to detail and creativity was impressive, resulting in a website that exceeded our expectations.",
+      "I thought it was impossible to make a website as beautiful as our product, but Aditya proved me wrong. The attention to detail and creativity was impressive, resulting in a website that exceeded our expectations.",
     name: "Shiv Raj Khanal",
     designation: "Founder",
     company: "Lamahi Chamber of Commerce",
@@ -177,7 +177,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Dipendra does. He consistently went above and beyond to ensure our website met our needs and provided valuable insights throughout the process.",
+      "I've never met a web developer who truly cares about their clients' success like Aditya does. He consistently went above and beyond to ensure our website met our needs and provided valuable insights throughout the process.",
     name: "Shiva Oli",
     designation: "Campus Chief",
     company: "Deukhuri Multiple Campus",
@@ -185,7 +185,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Dipendra optimized our website, our traffic increased by 50%. We can't thank them enough! His expertise in SEO and user experience design significantly improved our online visibility and user engagement.",
+      "After Aditya optimized our website, our traffic increased by 50%. We can't thank them enough! His expertise in SEO and user experience design significantly improved our online visibility and user engagement.",
     name: "Tek Bahadhur Pun",
     designation: "CTO",
     company: "GharSanchar",
@@ -216,7 +216,7 @@ const projects = [
       },
     ],
     image: sajilodev,
-    source_code_link: "https://github.com/dipenbhat557/SajiloDev",
+    source_code_link: "https://github.com/ad290/AI-Career-Coach.git",
     website_link: "https://sajilodev.com",
   },
   {
@@ -246,7 +246,7 @@ const projects = [
       },
     ],
     image: payment,
-    source_code_link: "https://github.com/dipenbhat557/payment-management",
+    source_code_link: "https://github.com/ad290/Job-Portal.git",
   },
   {
     name: "Interview Platform ",
@@ -271,7 +271,7 @@ const projects = [
       },
     ],
     image: geoland,
-    source_code_link: "https://github.com/dipenbhat557/Geoland-Travels",
+    source_code_link: "https://github.com/ad290/Full-Stack-Interview-Platform.git",
     website_link: "https://geolandtravels.com",
   },
   {
@@ -301,7 +301,7 @@ const projects = [
       },
     ],
     image: deukhuri,
-    source_code_link: "https://github.com/dipenbhat557/Deukhuri-College",
+    source_code_link: "https://github.com/ad290/Frontend-Assignment-.git",
     website_link: "https://deukhurimultiplecampus.edu.np",
   },
   {
@@ -315,6 +315,7 @@ const projects = [
       },
     ],
     image: gharsanchar,
+    source_code_link: "https://github.com/ad290/HOM-Task.git",
     website_link: "https://gharsanchar.com",
   },
   {
@@ -340,10 +341,11 @@ const projects = [
       },
     ],
     image: whatsapp,
-    source_code_link: "https://github.com/dipenbhat557/Whatsapp-clone",
+    source_code_link: "https://github.com/ad290/Code-Review.git",
   },
   
 ];
 
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };
+
