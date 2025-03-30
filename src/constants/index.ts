@@ -9,8 +9,6 @@ import {
   mysql,
   postgresql,
   gdsc,
-  techBlog,
-  contactManager,
   whatsapp,
   nextJs,
   typescript,
@@ -29,8 +27,6 @@ import {
   payment,
   gharsanchar,
   sajilodevlogo,
-  geolandlogo,
-  deukhurilogo,
   frontend,
   cloud,
 } from "../assets";
