@@ -45,7 +45,7 @@ import payment from "./payment.png"
 
 import sajilodev from "./sajilodev1.png"
 import browser from "./browser.jpg"
-import profile from "./profile.png"
+import profile from "./Profile.png"
 import resume from "./Resume.pdf"
 export {
   logo,
