@@ -135,7 +135,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "January 2025 - March 2025",
     points: [
-      "Led backend development efforts for web applications using Spring Boot.",
+      "Led backend development efforts for web applications using SQL.",
       "Organized workshops and study jams to educate peers about backend technologies.",
       "Mentored students in developing and deploying web applications.",
       "Collaborated with other facilitators to promote open-source projects.",
@@ -148,11 +148,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "September 2024 - November 2024",
     points: [
-      "Developed and deployed multiple production-ready projects, including the official website of SajiloDev.",
-      "Designed and implemented RESTful APIs using Spring Boot for backend services.",
-      "Built responsive user interfaces with React TypeScript and Tailwind CSS.",
-      "Integrated third-party services and APIs to enhance application functionality.",
-      "Promoted open-source initiatives through advocacy and educational events.",
+      "MERN Stack Development – Built responsive websites using MERN stack, Firebase, Tailwind CSS, and TypeScript for scalable applications.",
+      "Feature Integration – Added JWT authentication, real-time chatbot, and public space for posts, likes, and comments.",
+      "Payment & Subscription – Integrated a secure payment gateway for seamless subscription management.",
+      "Multi-Language Support – Enabled multi-language support for better accessibility.",
+      "Internship Experience – Hands-on training at Null Class, focusing on real-world web development.",
     ],
   },
   
@@ -217,7 +217,7 @@ const projects = [
     ],
     image: sajilodev,
     source_code_link: "https://github.com/ad290/AI-Career-Coach.git",
-    website_link: "https://sajilodev.com",
+    website_link: "https://DeployingSoon",
   },
   {
     name: "Job Platform",
@@ -247,6 +247,7 @@ const projects = [
     ],
     image: payment,
     source_code_link: "https://github.com/ad290/Job-Portal.git",
+    website_link: "https://DeployingSoon",
   },
   {
     name: "Interview Platform ",
@@ -272,7 +273,7 @@ const projects = [
     ],
     image: geoland,
     source_code_link: "https://github.com/ad290/Full-Stack-Interview-Platform.git",
-    website_link: "https://geolandtravels.com",
+    website_link: "https://DeployingSoon",
   },
   {
     name: "Website For RegisterKaro",
@@ -302,7 +303,7 @@ const projects = [
     ],
     image: deukhuri,
     source_code_link: "https://github.com/ad290/Frontend-Assignment-.git",
-    website_link: "https://deukhurimultiplecampus.edu.np",
+    website_link: "https://frontend-assignment-pi.vercel.app/",
   },
   {
     name: "Website For Marktech",
@@ -316,7 +317,7 @@ const projects = [
     ],
     image: gharsanchar,
     source_code_link: "https://github.com/ad290/HOM-Task.git",
-    website_link: "https://gharsanchar.com",
+    website_link: "https://homtask.netlify.app/",
   },
   {
     name: "Code Reviewer",
@@ -342,6 +343,7 @@ const projects = [
     ],
     image: whatsapp,
     source_code_link: "https://github.com/ad290/Code-Review.git",
+    website_link: "https://Deploying Soon",
   },
   
 ];
