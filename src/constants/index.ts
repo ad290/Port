@@ -10,9 +10,6 @@ import {
     gharsanchar,
     git,
     javascript,
-    jenkins,
-    kafka,
-    kubernetes,
     mysql,
     nextJs,
     payment,
@@ -23,7 +20,7 @@ import {
     sharad,
     shivaoli,
     shivaraj,
-    springBoot,
+    
     tailwind,
     tekpun,
     typescript,
@@ -65,10 +62,7 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "Spring Boot",
-    icon: springBoot,
-  },
+  
   {
     name: "Next JS",
     icon: nextJs,
@@ -98,20 +92,8 @@ const technologies = [
     icon: docker,
   },
   {
-    name: "Kubernetes",
-    icon: kubernetes,
-  },
-  {
-    name: "Jenkins",
-    icon: jenkins,
-  },
-  {
     name: "Firebase",
     icon: firebase,
-  },
-  {
-    name: "Kafka",
-    icon: kafka,
   },
   {
     name: "WordPress CMS",
@@ -199,11 +181,11 @@ const projects = [
       "A web platform built with React TypeScript and Firebase for ordering technical services such as website creation, domain checks, hosting, and maintenance. It provides a user-friendly interface for managing these services efficiently.",
     tags: [
       {
-        name: "react",
+        name: "NextJs",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "Neon",
         color: "orange-text-gradient",
       },
       {
@@ -217,7 +199,7 @@ const projects = [
     ],
     image: sajilodev,
     source_code_link: "https://github.com/ad290/AI-Career-Coach.git",
-    website_link: "https://DeployingSoon",
+    website_link: "https://ai-career-coach-sigma-swart.vercel.app/",
   },
   {
     name: "Job Platform",
@@ -229,7 +211,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Plaid",
+        name: "Su",
         color: "green-text-gradient",
       },
       {

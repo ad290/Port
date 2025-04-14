@@ -1,11 +1,11 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
-import FlipCard from "./FlipCard"; 
+import { useState } from "react";
+import FlipCard from "./FlipCard";
 
-import { styles } from "../styles";
 import { services } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
+import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon, description }: { index: any; title: any; icon: any; description: string }) => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -13,10 +13,10 @@ const ServiceCard = ({ index, title, icon, description }: { index: any; title: a
   return (
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className="xs:w-[350px] w-full p-[1px] rounded-[20px] shadow-card"
+        className="w-full h-full min-h-[280px] p-[1px] rounded-[20px] shadow-card"
       >
         <FlipCard isFlipped={isFlipped}>
-          <div className="bg-tertiary rounded-[19px] py-5 px-13 min-h-[280px] flex justify-around  items-center  flex-col">
+          <div className="bg-tertiary w-full h-full rounded-[19px] py-5 px-4 flex justify-around items-center flex-col">
             <img src={icon} alt={title} className="w-16 h-16 object-contain rounded-[50%]" />
             <h3 className="text-white text-[20px] font-bold text-center">
               {title}
@@ -28,8 +28,8 @@ const ServiceCard = ({ index, title, icon, description }: { index: any; title: a
               {isFlipped ? "" : "Click me!! "}
             </button>
           </div>
-          <div className="bg-tertiary rounded-[19px] py-5 px-13 min-h-[280px] flex justify-center items-center flex-col">
-            <p className="text-secondary text-center px-2 text-[17px] max-w-3xl leading-[30px]">
+          <div className="bg-tertiary w-full h-full rounded-[19px] py-5 px-4 flex justify-center items-center flex-col">
+            <p className="text-secondary text-center text-[17px] leading-[30px]">
               {description}
             </p>
             <button
@@ -46,7 +46,7 @@ const ServiceCard = ({ index, title, icon, description }: { index: any; title: a
 
 const About = () => {
   return (
-    <div className={` min-h-[620px] ${styles.padding}`} id="about">
+    <div className={`min-h-[620px] ${styles.padding}`} id="about">
       <motion.div variants={textVariant(0.2)}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
@@ -60,7 +60,7 @@ const About = () => {
         and various popular frameworks like Next.js, Mern stack and more.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => (
           <ServiceCard
             key={service.title}
