@@ -1,6 +1,6 @@
 # 🚀 A 3D Developer Portfolio
 
-<center>🚀 An immersive and interactive portfolio built with modern web technologies, bringing a 3D experience to showcase your work.</center>
+An immersive and interactive portfolio built with modern web technologies, bringing a **3D experience** to showcase your work.
 
 ---
 
@@ -22,28 +22,28 @@
 Includes a 3D desktop model that's easily customizable to suit specific needs.
 
 👉 **Interactive Experience and Work Sections**  
-Utilizes animations powered by Framer Motion for engaging user experience.
+Utilizes animations powered by **Framer Motion** for an engaging user experience.
 
 👉 **3D Skills Section**  
-Showcases skills using 3D geometries via Three.js and React Three Fiber.
+Showcases skills using 3D geometries via **Three.js** and **React Three Fiber**.
 
 👉 **Animated Projects and Testimonials**  
-Features dynamic sections using Framer Motion for projects and client testimonials.
+Features dynamic sections with **Framer Motion** animations for projects and client testimonials.
 
 👉 **Contact Section with 3D Earth Model**  
-Integrates a realistic 3D Earth model with email functionality powered by EmailJS.
+Integrates a realistic **3D Earth model** with email functionality powered by **EmailJS**.
 
 👉 **3D Stars**  
-Generates stars at random positions using Three.js for an animated background display.
+Generates stars at random positions using **Three.js** for an animated background effect.
 
 👉 **Consistent Animations**  
-Implements cohesive, smooth animations throughout the website using Framer Motion.
+Smooth and cohesive animations throughout the website with **Framer Motion**.
 
 👉 **Responsive Design**  
-Ensures optimal display and functionality across all devices.
+Optimized for display and functionality across all devices and screen sizes.
 
 🔁 **And many more...**  
-Includes scalable code architecture and reusable components for easy maintenance and extension.
+Built with scalable code architecture and reusable components for easy maintenance and future development.
 
 ---
 
@@ -51,36 +51,16 @@ Includes scalable code architecture and reusable components for easy maintenance
 
 Follow these steps to get the project up and running on your local machine:
 
-### Prerequisites
+### ✅ Prerequisites
 
-Make sure the following are installed:
+Ensure you have the following installed:
 
-- **Git**
-- **Node.js**
-- **npm** (Node Package Manager)
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- npm (comes with Node.js)
 
-### Clone the Repository
+### 📥 Clone the Repository
 
 ```bash
-git clone "https://github.com/ad290/Port.git"
+git clone https://github.com/ad290/Port.git
 cd Port
-
-
-## 🔐 Set Up Environment Variables
-
-Create a `.env` file in the root of your project and add the following:
-
-```env
-REACT_APP_EMAILJS_USERID=your_emailjs_user_id
-REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
-REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
-
-###
-
-## 🔗 Live Demo
-
-🌐 **Live Portfolio**: [https://port-three-blond.vercel.app/](https://port-three-blond.vercel.app/)
-
----
-
-Happy coding! 💻✨
