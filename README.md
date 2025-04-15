@@ -1,4 +1,4 @@
-# 🎮 A 3D Developer Portfolio
+# 🚀 A 3D Developer Portfolio
 
 <center>🚀 An immersive and interactive portfolio built with modern web technologies, bringing a 3D experience to showcase your work.</center>
 
@@ -75,6 +75,7 @@ REACT_APP_EMAILJS_USERID=your_emailjs_user_id
 REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
 REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
 
+###
 
 ## 🔗 Live Demo
 
