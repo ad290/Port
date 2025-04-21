@@ -117,10 +117,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "January 2025 - March 2025",
     points: [
-      "Led backend development efforts for web applications using SQL.",
-      "Organized workshops and study jams to educate peers about backend technologies.",
-      "Mentored students in developing and deploying web applications.",
-      "Collaborated with other facilitators to promote open-source projects.",
+      "Architected a microservices-based backend system using Node.js and Express, improving API performance .",
+      "Reduced query response time by 25% by optimizing MongoDB databases and indexing frequently accessed data.",
+      "Spearheaded the development of a React-based customer-facing dashboard, enhancing user engagement.",
+      "Designed and implemented CI/CD pipelines using GitHub Actions, accelerating deployment cycles.",
     ],
   },
   {
@@ -211,25 +211,25 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Su",
+        name: "Tailwind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "Dwolla",
+        name: "Framer Motion",
         color: "pink-text-gradient",
       },
+      
       {
-        name: "Appwrite",
-        color: "orange-text-gradient",
+        name: "Supabase",
+        color: "blue-text-gradient",
       },
       {
-        name: "Sentry",
+        name: "Clerk",
         color: "blue-text-gradient",
       },
     ],
     image: payment,
-    source_code_link: "https://github.com/ad290/Job-Portal.git",
-    website_link: "https://DeployingSoon",
+    source_code_link: "https://github.com/ad290/Job-Portal.git"
   },
   {
     name: "Interview Platform ",
@@ -255,7 +255,7 @@ const projects = [
     ],
     image: geoland,
     source_code_link: "https://github.com/ad290/Full-Stack-Interview-Platform.git",
-    website_link: "https://DeployingSoon",
+    website_link: "https://full-stack-interview-platform.vercel.app/",
   },
   {
     name: "Website For RegisterKaro",
@@ -274,14 +274,8 @@ const projects = [
         name: "tailwindcss",
         color: "orange-text-gradient",
       },
-      {
-        name: "spring boot",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "blue-text-gradient",
-      },
+     
+      
     ],
     image: deukhuri,
     source_code_link: "https://github.com/ad290/Frontend-Assignment-.git",
@@ -293,9 +287,20 @@ const projects = [
       "A news website in Nepal, featuring a simple UI design for news in Nepali, providing readers with the latest updates and information in an easy-to-navigate format.",
     tags: [
       {
-        name: "wordpress",
+        name: "ReactJs (Vite)",
         color: "blue-text-gradient",
       },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      }, {
+        name: "Framer Motion",
+        color: "blue-text-gradient",
+      }, {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+
     ],
     image: gharsanchar,
     source_code_link: "https://github.com/ad290/HOM-Task.git",
@@ -319,13 +324,13 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "springboot",
+        name: "Gemini API",
         color: "green-text-gradient",
       },
     ],
     image: whatsapp,
-    source_code_link: "https://github.com/ad290/Code-Review.git",
-    website_link: "https://Deploying Soon",
+    source_code_link: "https://github.com/ad290/Code-Review.git"
+   
   },
   
 ];
